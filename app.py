@@ -14,10 +14,10 @@ st.set_page_config(page_title="Llama2-doc", page_icon="🤖", layout="wide", )
 st.markdown(f"""
             <style>
             .stApp {{background-image: url("https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"); 
-                     background-attachment: fixed;
-                     background-size: cover}}
-         </style>
-         """, unsafe_allow_html=True)
+                    background-attachment: fixed;
+                    background-size: cover}}
+        </style>
+        """, unsafe_allow_html=True)
 
 # function for writing uploaded file in temp
 def write_text_file(content, file_path):
